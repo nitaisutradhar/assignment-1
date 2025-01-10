@@ -5,6 +5,8 @@
   font-variation-settings:
     "wdth" 100;
 }
+
+/* Shared Styles */
 *{
     margin: 0;
     padding: 0;
@@ -12,6 +14,29 @@
 body{
     width: 80%;
     margin: 0 auto;
+}
+.title{
+    font-size: 40px;
+    color: #0E0E0E;
+    font-weight: 700;
+    margin: 80px 0 24px 0;
+}
+.title-text{
+    font-size: 16px;
+    color: #0E0E0E;
+    font-weight: 400;
+    opacity: 70%;
+    line-height: 24px;
+}
+.btn{
+    background-color: #006A50;
+    color: #FFFFFF;
+    border-radius: 8px;
+    padding: 17px 34px;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
 }
 
 /* Navbar Style */
@@ -55,12 +80,49 @@ body{
     margin-top: 16px;
     margin-bottom: 24px;
 }
-.btn{
-    background-color: #006A50;
-    color: #FFFFFF;
-    border-radius: 8px;
-    padding: 17px 34px;
-    font-size: 18px;
-    font-weight: 600;
-    border: none;
+
+/* Vision of Future */
+.vcard-container{
+    display: flex;
+    gap: 24px;
+    margin-top: 32px;
+}
+.vcard-item1{
+    background-color: #D5E1F5;
+    padding: 32px;
+    border-radius: 16px;
+}
+.vcard-item1 .btn{
+    background-color: #5490F5;
+}
+.vcard-item2{
+    background-color: #C6E4D6;
+    padding: 32px;
+    border-radius: 16px;
+}
+.vcard-item2 .btn{
+    background-color: #09A15C;
+}
+.vcard-item3{
+    background-color: #F7EBCF;
+    padding: 32px;
+    border-radius: 16px;
+}
+.vcard-item3 .btn{
+    background-color: #FFC239;
+}
+.vcard-title{
+    font-size: 20px;
+    font-weight: 700;
+    color: #0E0E0E;
+    opacity: 80%;
+    margin-top: 24px;
+}
+.vcard-text{
+    font-size: 16px;
+    font-weight: 400;
+    color: #0E0E0E;
+    opacity: 70%;
+    margin-top: 12px;
+    margin-bottom: 48px;
 }
