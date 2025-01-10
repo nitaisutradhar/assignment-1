@@ -1,0 +1,66 @@
+.open-sans-normal {
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Navbar Style */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    border: 1px solid gray;
+}
+.nav-title{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+/* Banner Section */
+.banner-container{
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    height: 560px;
+    justify-content: space-between;
+}
+.banner-item{
+    margin-left: 60px;
+}
+.banner-img{
+    margin-right: 60px;
+}
+.banner-title{
+    color: #0E0E0E;
+    font-size: 24px;
+    font-weight: 500;
+    opacity: 50%;
+}
+.banner-text{
+    color: #0E0E0E;
+    font-size: 56px;
+    font-weight: 700;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+.btn{
+    background-color: #006A50;
+    color: #FFFFFF;
+    border-radius: 8px;
+    padding: 17px 34px;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+}
