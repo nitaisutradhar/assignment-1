@@ -75,7 +75,61 @@ header,main{
     background-color: #006A50;
     color: white;
   }
-
+/* Add an arrow on Button Hover Effect */
+.button {
+    display: inline-block;
+    background-color: #006A50;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+/* Hoverable Buttons */
+.btn-effect1{
+    background-color: white; 
+  color: black; 
+  border: 2px solid #04AA6D;
+}
+.btn-effect1:hover {
+    background-color: #04AA6D;
+    color: white;
+  }
+/* Box Shadow Hover Effect */
+.shadoweffect:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+/* Color Change on Hover Effect */
+.hoveffect2:hover {
+    background-color: #0c4a0d;
+  }
 /* Banner Section */
 .banner-container{
     background-color: #C6E4D6;
@@ -207,6 +261,7 @@ header,main{
     border-color: rgba(14, 14, 14, 0.15);
     border-radius: 16px;
     padding: 40px;
+    transition-duration: 0.4s;
 }
 .dcard-item:nth-child(2){
     background-color: #C6E4D6;
