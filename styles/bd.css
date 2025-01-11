@@ -46,12 +46,33 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 20px 0;
-    border: 1px solid gray;
 }
 .nav-title{
     font-size: 32px;
     font-weight: 700;
+    color: #0E0E0E;
 }
+/* Navbar Button Hover Effect */
+.nav-btn{
+    border-radius: 8px;
+    border-color: #006A50;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #006A50;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.button1 {
+    background-color: white; 
+    color: #006A50; 
+    border: 2px solid #006A50;
+  }
+  
+  .button1:hover {
+    background-color: #006A50;
+    color: white;
+  }
 
 /* Banner Section */
 .banner-container{
