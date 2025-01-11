@@ -14,6 +14,7 @@
 body{
     width: 80%;
     margin: 0 auto;
+    background-color: #F5F5F5;
 }
 .title{
     font-size: 40px;
@@ -125,4 +126,34 @@ body{
     opacity: 70%;
     margin-top: 12px;
     margin-bottom: 48px;
+}
+
+/* Recent News Style */
+.card-item{
+    display: flex;
+    background-color: #FFFFFF;
+    border-radius: 24px;
+    padding: 48px;
+    gap: 32px;
+    margin-top: 24px;
+}
+.card-img{
+    border-radius: 24px;
+}
+.card-title{
+    font-size: 32px;
+    font-weight: 700;
+    color: #0E0E0E;
+    opacity: 80%;
+    margin-bottom: 12px;
+}
+.card-desc{
+    margin-bottom: 32px;
+}
+.card-date{
+    display: inline-block;
+    margin: 12px 12px 12px 0;
+}
+.news-card-container{
+    margin-top: 32px;
 }
