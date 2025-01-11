@@ -12,9 +12,11 @@
     padding: 0;
 }
 body{
+    background-color: #F5F5F5;
+}
+header,main{
     width: 80%;
     margin: 0 auto;
-    background-color: #F5F5F5;
 }
 .title{
     font-size: 40px;
@@ -264,4 +266,29 @@ body{
 }
 .subs-email>.btn{
     border-radius: 0 8px 8px 0;
+}
+
+/* Footer Section */
+.footer-container{
+    text-align: center;
+    background-color: #FFFFFF;
+    width: 100%;
+}
+.footer-title{
+    font-size: 32px;
+    padding-top: 50px;
+    color: #0E0E0E;
+    font-weight: 700;
+}
+.hr-line{
+    margin: 32px auto;
+    border-color:rgba(14, 14, 14, 0.1);
+    text-align: center;
+    width: 80%;
+}
+.social-icons{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    padding-bottom: 50px;
 }
