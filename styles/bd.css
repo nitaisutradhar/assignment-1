@@ -368,3 +368,17 @@ header,main{
     font-weight: 600;
 
 }
+
+/* Pillar Styles */
+.pillar-cards{
+    display: flex;
+    gap: 24px;
+    margin-top: 32px;
+}
+.pcard-item{
+    padding: 24px;
+    width: 302px;
+    border-radius: 16px;
+    background-color: #FFFFFF;
+    border-color: rgba(14, 14, 14, 0.15);
+}
