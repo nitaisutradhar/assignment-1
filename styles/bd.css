@@ -347,3 +347,24 @@ header,main{
     justify-content: center;
     padding-bottom: 50px;
 }
+/* Quote Section */
+.quote{
+    border-radius: 18px;
+    
+    margin-top: 32px;
+    background-color: #FFFFFF;
+    border-color: rgba(14, 14, 14, 0.15);
+}
+.quote-container{
+    padding: 48px 24px;
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: 24px 25px;
+}
+.quote-author{
+    margin: 12px 0 4px 0;
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.8);
+    font-weight: 600;
+
+}
